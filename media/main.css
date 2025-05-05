@@ -9,7 +9,7 @@ body {
 }
 
 .text-title-x2 {
-    color: #ffffff;
+    color: var(--text-color);
     font-size: 160px;
     line-height: 0.85;
     font-weight: 100;
@@ -21,7 +21,7 @@ body {
 
 .text-title-x1 {
     vertical-align: middle;
-    color: #ffffff;
+    color: var(--text-color);
     font-size: 80px;
     line-height: 1;
     font-weight: 100;
@@ -32,7 +32,7 @@ body {
 }
 
 .text-simple {
-    color: #ffffff;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 1.25;
     font-weight: 300;
@@ -140,7 +140,7 @@ header {
 
 .describe-block {
     border-radius: 80px 80px 80px 80px;
-    background-color: var(--dark-text-color);
+    background-color: var(--describe-block-first);
     background-position: center center;
     border-color: transparent;
     border-style: solid;
@@ -149,11 +149,11 @@ header {
 }
 
 .describe-block:nth-child(2) {
-    background-color: #00b6b6;
+    background-color: var(--describe-block-second);
 }
 
 .describe-block:last-child {
-    background-image: linear-gradient(304deg, rgba(0, 162, 255, 1) 0%, rgba(0, 136, 214, 1) 100%);
+    background-image: var(--describe-block-third);
     border-color: transparent;
 }
 
@@ -246,7 +246,7 @@ header {
     max-width: 48px;
     height: 48px;
     max-height: 48px;
-    background: #eff3f6;
+    background: var(--advantages-circle);
     display: flex;
     align-items: center;
     justify-content: center;

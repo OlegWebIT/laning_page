@@ -2,13 +2,27 @@
     --bg-color: #0066ff;
     --bg-color-theme-btn: rgb(0 26 52 / 15%);
     --text-color: #fff;
+    --describe-block-first: #001a34;
+    --describe-block-second: #00b6b6;
+    --describe-block-third: linear-gradient(304deg, rgba(0, 162, 255, 1) 0%, rgba(0, 136, 214, 1) 100%);
     --dark-text-color: #001a34;
     --bg-white:#fff;
-    --footer: #001a34
+    --footer: #001a34;
+    --advantages-circle: #eff3f6;
+
+    /*linear-gradient(304deg, rgba(0, 26, 52, 1) 0%, rgb(0 63 217) 100%)*/
+    /*linear-gradient(304deg, rgb(182 79 0) 0%, rgb(84 0 192) 100%)*/
+    /*linear-gradient(304deg, rgb(33 174 255) 0%, rgb(1 188 23) 100%)*/
 }
 
 [data-theme="dark"] {
     --bg-color: #001a34;
-    --text-color: #ffffff;
+    --text-color: rgb(221 234 255);
     --bg-color-theme-btn: #0026c7;
+    --bg-white:#1f2023;
+    --dark-text-color: rgb(221 234 255);
+    --describe-block-second: #014b9e;
+    --describe-block-third: linear-gradient(304deg, rgb(110 21 39) 0%, rgb(79 0 56) 100%);
+    --footer: #1f2023;
+    --advantages-circle: #001a34;
 }

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медицинский портал sos.by</title>
+
+    <link href="media/fonts.css" rel="stylesheet">
+    <link href="media/variables.css" rel="stylesheet">
+    <link href="media/normalize.css" rel="stylesheet">
+    <link href="media/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-wrap">
+            <div class="logo">§
+                <span class="logo-text"> sos.by</span>
+            </div>
+            <button class="theme-btn" onclick="toggleTheme()">
+                <div class="theme-btn__wrapper">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_34_6)">
+                            <path d="M8.00087 3.0519C8.25087 3.0519 8.45488 2.8869 8.45488 2.6829V0.789898C8.45488 0.586898 8.25087 0.420898 8.00087 0.420898C7.75087 0.420898 7.54688 0.586898 7.54688 0.790898V2.6829C7.54688 2.8869 7.75087 3.0519 8.00087 3.0519Z" fill="white"/>
+                            <path d="M8.00064 4.30591C7.02142 4.30749 6.08276 4.69719 5.39034 5.38961C4.69792 6.08202 4.30823 7.02069 4.30664 7.99991C4.30823 8.97913 4.69792 9.91779 5.39034 10.6102C6.08276 11.3026 7.02142 11.6923 8.00064 11.6939C8.97986 11.6923 9.91852 11.3026 10.6109 10.6102C11.3034 9.91779 11.6931 8.97913 11.6946 7.99991C11.6931 7.02069 11.3034 6.08202 10.6109 5.38961C9.91852 4.69719 8.97986 4.30749 8.00064 4.30591ZM8.00064 10.7899C7.26117 10.7883 6.55245 10.4939 6.02956 9.97098C5.50668 9.4481 5.21223 8.73937 5.21064 7.99991C5.21064 6.45991 6.46064 5.20991 8.00064 5.20991C9.54064 5.20991 10.7906 6.45991 10.7906 7.99991C10.7906 9.53991 9.53664 10.7899 8.00064 10.7899Z" fill="white"/>
+                            <path d="M3.37356 7.542C3.58156 7.542 3.75056 7.746 3.75056 7.996C3.75056 8.246 3.58056 8.45 3.37356 8.45H0.853562C0.646562 8.45 0.476562 8.246 0.476562 7.996C0.476562 7.746 0.646562 7.542 0.854562 7.542H3.37356ZM8.00056 12.377C7.75056 12.377 7.54656 12.542 7.54656 12.745V15.21C7.54656 15.413 7.75056 15.579 8.00056 15.579C8.25056 15.579 8.45456 15.413 8.45456 15.209V12.746C8.45456 12.542 8.25056 12.377 8.00056 12.377ZM2.57156 12.763L4.31456 11.024C4.45956 10.88 4.71756 10.91 4.90056 11.079C5.07856 11.257 5.10356 11.52 4.96056 11.664L3.21656 13.408C3.06856 13.552 2.80956 13.526 2.63156 13.348C2.45356 13.17 2.42756 12.907 2.57156 12.763ZM4.31956 4.972C4.46356 5.116 4.72656 5.091 4.90456 4.912C5.08256 4.735 5.10856 4.476 4.96456 4.328L3.22056 2.585C3.07656 2.44 2.81356 2.465 2.63556 2.644C2.45756 2.822 2.43156 3.081 2.57556 3.229L4.32056 4.972H4.31956ZM12.6276 7.55H15.1476C15.3546 7.55 15.5246 7.754 15.5246 8.004C15.5246 8.254 15.3546 8.458 15.1466 8.458H12.6276C12.4196 8.458 12.2506 8.254 12.2506 8.004C12.2506 7.754 12.4206 7.55 12.6276 7.55ZM11.6856 4.976L13.4296 3.233C13.5736 3.089 13.5476 2.826 13.3696 2.648C13.1916 2.47 12.9326 2.444 12.7846 2.588L11.0406 4.332C10.8966 4.476 10.9216 4.739 11.1006 4.917C11.2826 5.091 11.5406 5.12 11.6846 4.977L11.6856 4.976ZM11.0966 11.087C11.2746 10.909 11.5376 10.884 11.6816 11.027L13.4246 12.771C13.5696 12.919 13.5446 13.178 13.3656 13.356C13.1876 13.534 12.9246 13.56 12.7806 13.416L11.0376 11.673C10.8926 11.524 10.9176 11.265 11.0966 11.087Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_34_6">
+                                <rect width="16" height="16" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <span id="theme-btn__txt">Светлая</span>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+<div class="header-border"></div>
+
+<main>
+    <section>
+        <div class="main-block">
+        <div class="container">
+            <div class="main-text">
+                <h1 class="text-title-x2">Все аптеки и лаборатории Беларуси — на одном медицинском портале</h1>
+            </div>
+            <div class="others-text">
+                <div class="others-text__block text-simple">
+                    Портал sos.by — это единая медицинская платформа, которая объединяет предложения аптек и медицинских лабораторий по всей Республике Беларусь. Здесь вы можете найти и сравнить цены на лекарства, медицинские товары и лабораторные анализы в Минске, Бресте, Гомеле, Витебске, Могилёве и других городах страны.
+                </div>
+                <div class="others-text__block text-simple">
+                    Мы собрали в одном месте актуальные данные о наличии препаратов и медицинских услуг в более чем 1000 аптеках и лабораториях. Вы легко найдёте ближайшую аптеку, в которой есть нужное вам лекарство, или выберете лабораторию, где можно быстро и недорого сдать анализ крови, мочи, ПЦР-тест или сделать УЗИ.
+                </div>
+                <div class="others-text__block text-simple text-simple-x2">
+                    sos.by — это ваш быстрый доступ к важной медицинской информации и реальной экономии времени и денег.
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="compare-block">
+            <div class="container">
+                <div class="compare-block__wrap">
+                    <h2 class="text-title-x1">Сравнение цен на лекарства и анализы — выбирайте самое выгодное</h2>
+                    <div class="others-text__block text-simple">
+                        Наш сервис помогает избежать переплат и выбрать то, что подходит именно вам — с учетом качества, цены и удобства.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="describe-block__wrapper">
+            <div style="position: sticky; top: 10px;" class="describe-block">
+                <div class="container">
+                    <h2 class="text-title-x1">Удобно сравнивать цены</h2>
+                    <div class="others-text">
+                        <div class="others-text__block text-simple">
+                            С помощью sos.by вы можете не только найти нужные препараты или лабораторные услуги, но и сравнить их стоимость в разных учреждениях. Мы показываем минимальные цены на лекарства в аптеках Беларуси, а также стоимость популярных анализов — от общеклинических до сложных лабораторных исследований.
+                        </div>
+                        <div class="others-text__block text-simple">
+                            Вы можете отсортировать результаты по цене, наличию, расстоянию или рейтингу, чтобы выбрать оптимальный вариант. Например, сравните цены на антибиотики, жаропонижающие, витамины, препараты от давления или аллергии — и сразу увидите, где дешевле.
+                        </div>
+                        <div class="others-text__block text-simple-x2">
+                            Также доступен удобный поиск анализов: общий анализ крови, биохимия, гормоны, ПЦР на COVID-19, ИФА, мазки, тест на витамины, печёночные пробы и многое другое.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="position: sticky; top: 10px;" class="describe-block">
+                <div class="container">
+                    <h2 class="text-title-x1">Онлайн-бронирование лекарств и запись на анализы</h2>
+                    <div class="others-text">
+                        <div class="others-text__block text-simple">
+                            На sos.by вы можете забронировать лекарственные препараты онлайн, чтобы быть уверенными, что они будут в наличии в момент вашего визита в аптеку. Просто выберите нужное средство, укажите аптеку и оформите бронь — без звонков и ожидания.
+                        </div>
+                        <div class="others-text__block text-simple">
+                            Также доступна онлайн-запись на медицинские анализы. Хотите сдать анализ крови, мочи, пройти ПЦР-тест или сделать УЗИ? Выберите ближайшую лабораторию, подходящее время и оформите запись через сайт. Всё максимально просто и прозрачно.
+                        </div>
+                        <div class="others-text__block text-simple-x2">
+                            Мы сотрудничаем с ведущими лабораториями Беларуси: Синэво, Инвитро, Гемотест, ЛОДЭ и другими, чтобы вы могли выбирать среди проверенных поставщиков.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="position: sticky; top: 10px;" class="describe-block">
+                <div class="container">
+                    <h2 class="text-title-x1">Достоверная медицинская информация и помощь в выборе</h2>
+                    <div class="others-text">
+                        <div class="others-text__block text-simple">
+                            sos.by — это не только поиск и бронирование, но и надежный источник информации о лекарствах и медицинских анализах. Мы предоставляем полные инструкции по применению препаратов, сведения о показаниях, противопоказаниях, дозировке и возможных побочных эффектах.
+                        </div>
+                        <div class="others-text__block text-simple">
+                            Также вы найдёте статьи и советы от врачей: как правильно подготовиться к сдаче крови, зачем нужен тот или иной анализ, как расшифровать результаты, какие препараты несовместимы между собой и многое другое.
+                        </div>
+                        <div class="others-text__block text-simple-x2">
+                            Например, если вы ищете, как подготовиться к ПЦР-анализу на коронавирус или когда лучше сдавать кровь на гормоны — вы найдёте понятные и актуальные рекомендации.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="compare-block">
+            <div class="container">
+                <div class="compare-block__wrap_new">
+                    <h2 class="text-title-x1">Наша цель — сделать медицину понятной</h2>
+                    <div class="others-text__block text-simple">
+                        sos.by помогает ориентироваться в медицинских вопросах, выбирать осознанно и заботиться о здоровье на всех этапах — от поиска препарата до расшифровки результатов анализа.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="advantages">
+            <div class="container">
+                <h2 class="text-title-x1">Дополнительные преимущества sos.by</h2>
+            </div>
+        </div>
+        <ul class="advantages-list">
+            <li class="advantages-item text-simple-x2 container">
+                <div class="advantages-item__wrap">
+                    <span>Поиск по названию лекарства, МНН, диагнозу или симптомам</span>
+                    <span class="advantages-item__circle">
+                        <svg>
+                            <use href="media/icons/sprites.svg#icon-check"></use>
+                        </svg>
+                    </span>
+                </div>
+            </li>
+            <li class="advantages-item text-simple-x2 container">
+                <div class="advantages-item__wrap">
+                    <span>Геолокация: ищите ближайшие аптеки и лаборатории</span>
+                    <span class="advantages-item__circle">
+                        <svg>
+                            <use href="media/icons/sprites.svg#icon-check"></use>
+                        </svg>
+                    </span>
+                </div>
+            </li>
+            <li class="advantages-item text-simple-x2 container">
+                <div class="advantages-item__wrap">
+                    <span>Актуальные цены, обновляемые ежедневно</span>
+                    <span class="advantages-item__circle">
+                        <svg>
+                            <use href="media/icons/sprites.svg#icon-check"></use>
+                        </svg>
+                    </span>
+                </div>
+            </li>
+            <li class="advantages-item text-simple-x2 container">
+                <div class="advantages-item__wrap">
+                    <span>Удобный интерфейс для компьютеров и смартфонов</span>
+                    <span class="advantages-item__circle">
+                        <svg>
+                            <use href="media/icons/sprites.svg#icon-check"></use>
+                        </svg>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="logo">§
+                    <span class="logo-text"> sos.by</span>
+                </div>
+                <div class="footer-copyright text-simple">© 2025 SOS.BY. Все права защищены.</div>
+                <div class="footer-email">
+                    <a class="text-simple" href="mailto:info@sos.by">info@sos.by</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+
+
+
+<script>
+    function toggleTheme() {
+        const html = document.documentElement;
+        const newTheme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+        const btnText = document.getElementById('theme-btn__txt')
+        html.dataset.theme = newTheme;
+        btnText.textContent = html.dataset.theme === 'dark' ? 'Темная' : 'Светлая';
+        localStorage.setItem('theme', newTheme);
+    }
+
+    // Загрузка сохранённой темы
+    (function() {
+        const saved = localStorage.getItem('theme');
+        if (saved) {
+            const btnText = document.getElementById('theme-btn__txt')
+            document.documentElement.dataset.theme = saved;
+            btnText.textContent = document.documentElement.dataset.theme === 'dark' ? 'Темная' : 'Светлая';
+
+            console.log(btnText)
+        }
+
+    })();
+</script>
+
+</body>
+</html>

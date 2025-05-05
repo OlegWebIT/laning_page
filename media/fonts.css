@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/GT-Eesti-Pro-Display-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/GT-Eesti-Pro-Display-200.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/GTEestiProText-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSans-Black.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSans-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSans-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSansArmenian-Bla.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSansArmenian-Bol.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GTEestiDisplay';
+    src: url('fonts/NotoSansArmenian-Reg.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
